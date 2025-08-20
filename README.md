@@ -38,8 +38,11 @@ chmod +x make-ascii.sh; ./make-ascii.sh <video filename>
 
 ### Through releases page (it is only a bit faster):
 
-1. Download the zip
-2. Unzip it:
+1. Download the zip:
+```bash
+wget https://github.com/Kolya080808/ASCII-Video-Player/releases/download/v1.0/release.zip
+```
+3. Unzip it:
 ```bash
 unzip release.zip
 ```

@@ -55,5 +55,16 @@ chmod +x make-ascii.sh; ./make-ascii.sh <video filename>
 ./run <video filename> <delay (1/fps, for me it is 1/30 = 0.03333...>
 ```
 
+## P.S.
+
+If you want not to get these artifacts in the video, instead of this in make-ascii.sh:
+```bash
+  ascii-image-converter "$file" > "frames-ascii/$filename.txt"
+```
+Do this:
+```bash
+  ascii-image-converter "$file" -W <number (i use 105)> > "frames-ascii/$filename.txt"
+```
+
 
 That's all. Thanks for visiting this repository! 

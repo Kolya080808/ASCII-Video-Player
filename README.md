@@ -44,7 +44,7 @@ wget https://github.com/Kolya080808/ASCII-Video-Player/releases/download/v1.0/re
 ```
 3. Unzip it:
 ```bash
-unzip release.zip
+unzip release.zip; cd release/
 ```
 3. Installing dependencies, converting video into frames:
 ```bash

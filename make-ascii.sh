@@ -21,7 +21,7 @@ sudo apt install -y ffmpeg mpv ascii-image-converter g++
 # создание ascii-фреймов
 
 mkdir -p frames-video
-ffmpeg -i "$VIDEO_FILE" -vf fps=30 frames-video/out%04d.jpg
+ffmpeg -i "$VIDEO_FILE" -vf fps=30 frames-video/out%05d.jpg
 
 rm -rf frames-ascii/*
 mkdir -p frames-ascii

@@ -57,9 +57,9 @@ chmod +x ./run; ./run <video filename> <delay (1/fps, for me it is 1/30 = 0.0333
 
 ## P.S.
 
-If you want not to get these artifacts in the video, instead of this in make-ascii.sh:
+If you want less/more quality, instead of this in make-ascii.sh:
 ```bash
-  ascii-image-converter "$file" > "frames-ascii/$filename.txt"
+  ascii-image-converter "$file" -W 208 > "frames-ascii/$filename.txt"
 ```
 Do this:
 ```bash

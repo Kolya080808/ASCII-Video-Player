@@ -28,7 +28,7 @@ mkdir -p frames-ascii
 for file in "$PWD"/frames-video/*; do
   filename=$(basename "$file")
   echo "Converting $filename..."
-  ascii-image-converter "$file" > "frames-ascii/$filename.txt"
+  ascii-image-converter -W 208 "$file" > "frames-ascii/$filename.txt"
 done
 
 # компиляция кода
